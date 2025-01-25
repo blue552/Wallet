@@ -1,0 +1,35 @@
+name: walltt
+description: Hệ thống quản lý ví tiền mã hóa.
+
+# Không công bố lên pub.dev
+publish_to: 'none' 
+
+# Phiên bản của ứng dụng
+version: 0.0.1+1
+
+environment:
+  sdk: ">=3.1.1 <4.0.0" # Đảm bảo tương thích với phiên bản Flutter SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Package sử dụng
+  english_words: ^4.0.0
+  provider: ^6.0.0
+  
+  # Thêm các gợi ý phụ thuộc khác nếu cần thiết
+  shared_preferences: ^2.1.0 # Lưu trữ dữ liệu cục bộ
+  http: ^1.0.0               # Kết nối API
+  crypto: ^3.0.0             # Hỗ trợ mã hóa và giải mã
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0 # Quy tắc lint để kiểm tra mã nguồn
+
+flutter:
+  uses-material-design: true
+
+ 
