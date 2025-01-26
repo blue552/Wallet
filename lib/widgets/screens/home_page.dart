@@ -1,4 +1,4 @@
-import 'package:walltt/screens/screens.dart';
+import 'package:walltt/widgets/screens/screens.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
